@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     /* outline: 2px solid red; */
+    font-family: roboto;
 }
 
 .header, .body{
@@ -101,6 +102,7 @@
 
 }
 .lastwhite{
+    font-family: Roboto;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -122,6 +124,7 @@
     background-color: rgb(89, 148, 231);
     color: whitesmoke;
     border-radius: 10px;
+    font-family: Roboto;
     font-size: 32px;
     width: 150px;
     height: 61px;
@@ -129,6 +132,7 @@
 }
 .footer{
     background-color: #1f2937;
+    font-family: Roboto;
     display:flex;
     height: 120px;
     font-size: 24px;
