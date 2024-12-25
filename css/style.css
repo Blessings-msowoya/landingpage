@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    /* outline: 2px solid red; */
+}
+
+.header, .body, .footer{
+    padding-left: 700px;
+    padding-right: 700px;
+    padding-top: 150px;
+    font-family: roboto;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.header, .body{
+    display: flex;
+}
+
+.header{
+    padding-top: 50px;
+    font-size: 35px;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.body{
+    justify-content: space-between;
+    gap: 60px;
+}
+
+#header-logo{
+    font-family: Roboto;
+    flex:auto;
+    font-weight: 900;
+
+}
+#second-header{ 
+    font-weight: 900;
+    font-size: 65px;
+}
+#button1{
+    margin-top: 20px;
+    background-color: rgb(89, 148, 231);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 32px;
+    width: 150px;
+    height: 61px;
+    
+}
+
+
+
+
+
