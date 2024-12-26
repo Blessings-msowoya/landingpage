@@ -5,9 +5,9 @@
 }
 
 .header, .body{
-    padding-left: 700px;
-    padding-right: 700px;
-    padding-top: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 80px;
     font-family: roboto;
     background-color: #1f2937;
     color: #f9faf8;
@@ -18,14 +18,14 @@
 
 .header{
     padding-top: 50px;
-    font-size: 35px;
+    font-size: 25px;
     justify-content: flex-end;
     gap: 40px;
 }
 
 .body{
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     gap: 60px;
 }
 
@@ -37,24 +37,24 @@
 }
 #second-header{ 
     font-weight: 900;
-    font-size: 65px;
+    font-size: 40px;
 }
 #button1{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: rgb(89, 148, 231);
     color: whitesmoke;
     border-radius: 10px;
     font-size: 32px;
     width: 150px;
-    height: 61px;
+    height: 60px;
    
 }
 
 #body2-text{
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     justify-content: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
     font-family: roboto;
     display: flex;
@@ -62,48 +62,47 @@
 
 .body2-shapes, .body2-rectangles{
     justify-content: space-around;
-    padding-left: 700px;
-    padding-right: 700px;
+    padding-left: 500px;
+    padding-right: 500px;
     display: flex;
 }
 .rectangles1, .rectangles2, .rectangles3,.rectangles4{
     border-radius: 10px;
     border: 4px solid white;
-    height: 400px;
-    width: 250px;
-    font-size: 20px;
-    padding: 10px;
+    height: 250px;
+    width: 150px;
+    font-size: 15px;
+    padding: 5px;
 }
 .rectangle-shapes{
     border-radius: 10px;
-    border: 4px solid rgb(85, 141, 213);
-    height: 280px;
-    width: 250px;
+    border: 2px solid rgb(85, 141, 213);
+    height: 150px;
+    width: 150px;
 }
 .text-in-text{
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: grey;
+    text-align: center;
 }
 
 .grey-area{
-    background-color: rgb(245, 239, 239);
-    height: 400px;
-    padding-left: 700px;
-    padding-right: 700px;
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+    padding-left: 550px;
+    padding-right: 550px;
 }
 .inline-paragraph{
-    margin-top: 120px;
-    padding-top: 100px;
-    font-family: Roboto;
-    font-size: 46px;
+    margin-top: 20px;
+    padding-top: 60px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
 
 }
 .lastwhite{
-    font-family: Roboto;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,9 +110,9 @@
 .inner-lastwhite{
     background-color: rgb(89, 148, 231);
     border-radius: 10px;
-    border: 4px solid rgb(85, 141, 213);
-    height: 200px;
-    width: 1200px;
+    border: 1px solid rgb(85, 141, 213);
+    height: 120px;
+    width: 800px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,18 +123,16 @@
     background-color: rgb(89, 148, 231);
     color: whitesmoke;
     border-radius: 10px;
-    font-family: Roboto;
-    font-size: 32px;
+    font-size: 23px;
     width: 150px;
-    height: 61px;
-    border: 4px solid white;
+    height: 55px;
+    border: 1px solid white;
 }
 .footer{
     background-color: #1f2937;
-    font-family: Roboto;
     display:flex;
-    height: 120px;
-    font-size: 24px;
+    height: 60px;
+    font-size: 20px;
     color: white;
     justify-content: center;
     align-items: center;
